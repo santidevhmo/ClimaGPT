@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		787CDF3D29915C3C00F17EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF3C29915C3C00F17EBB /* AppDelegate.swift */; };
+		787CDF3F29915C3C00F17EBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF3E29915C3C00F17EBB /* SceneDelegate.swift */; };
+		787CDF4129915C3C00F17EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF4029915C3C00F17EBB /* ViewController.swift */; };
+		787CDF4429915C3C00F17EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787CDF4229915C3C00F17EBB /* Main.storyboard */; };
+		787CDF4729915C3C00F17EBB /* ClimaGPT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF4529915C3C00F17EBB /* ClimaGPT.xcdatamodeld */; };
+		787CDF4929915C3D00F17EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787CDF4829915C3D00F17EBB /* Assets.xcassets */; };
+		787CDF4C29915C3D00F17EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787CDF4A29915C3D00F17EBB /* LaunchScreen.storyboard */; };
+		787CDF5729915C3D00F17EBB /* ClimaGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF5629915C3D00F17EBB /* ClimaGPTTests.swift */; };
+		787CDF6129915C3D00F17EBB /* ClimaGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF6029915C3D00F17EBB /* ClimaGPTUITests.swift */; };
+		787CDF6329915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF6229915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		787CDF5329915C3D00F17EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787CDF3129915C3C00F17EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787CDF3829915C3C00F17EBB;
+			remoteInfo = ClimaGPT;
+		};
+		787CDF5D29915C3D00F17EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787CDF3129915C3C00F17EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787CDF3829915C3C00F17EBB;
+			remoteInfo = ClimaGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		787CDF3929915C3C00F17EBB /* ClimaGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimaGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		787CDF3C29915C3C00F17EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		787CDF3E29915C3C00F17EBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		787CDF4029915C3C00F17EBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		787CDF4329915C3C00F17EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		787CDF4629915C3C00F17EBB /* ClimaGPT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClimaGPT.xcdatamodel; sourceTree = "<group>"; };
+		787CDF4829915C3D00F17EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		787CDF4B29915C3D00F17EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		787CDF4D29915C3D00F17EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787CDF5229915C3D00F17EBB /* ClimaGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimaGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		787CDF5629915C3D00F17EBB /* ClimaGPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaGPTTests.swift; sourceTree = "<group>"; };
+		787CDF5C29915C3D00F17EBB /* ClimaGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimaGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		787CDF6029915C3D00F17EBB /* ClimaGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaGPTUITests.swift; sourceTree = "<group>"; };
+		787CDF6229915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		787CDF3629915C3C00F17EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787CDF4F29915C3D00F17EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787CDF5929915C3D00F17EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		787CDF3029915C3C00F17EBB = {
+			isa = PBXGroup;
+			children = (
+				787CDF3B29915C3C00F17EBB /* ClimaGPT */,
+				787CDF5529915C3D00F17EBB /* ClimaGPTTests */,
+				787CDF5F29915C3D00F17EBB /* ClimaGPTUITests */,
+				787CDF3A29915C3C00F17EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		787CDF3A29915C3C00F17EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				787CDF3929915C3C00F17EBB /* ClimaGPT.app */,
+				787CDF5229915C3D00F17EBB /* ClimaGPTTests.xctest */,
+				787CDF5C29915C3D00F17EBB /* ClimaGPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		787CDF3B29915C3C00F17EBB /* ClimaGPT */ = {
+			isa = PBXGroup;
+			children = (
+				787CDF3C29915C3C00F17EBB /* AppDelegate.swift */,
+				787CDF3E29915C3C00F17EBB /* SceneDelegate.swift */,
+				787CDF4029915C3C00F17EBB /* ViewController.swift */,
+				787CDF4229915C3C00F17EBB /* Main.storyboard */,
+				787CDF4829915C3D00F17EBB /* Assets.xcassets */,
+				787CDF4A29915C3D00F17EBB /* LaunchScreen.storyboard */,
+				787CDF4D29915C3D00F17EBB /* Info.plist */,
+				787CDF4529915C3C00F17EBB /* ClimaGPT.xcdatamodeld */,
+			);
+			path = ClimaGPT;
+			sourceTree = "<group>";
+		};
+		787CDF5529915C3D00F17EBB /* ClimaGPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				787CDF5629915C3D00F17EBB /* ClimaGPTTests.swift */,
+			);
+			path = ClimaGPTTests;
+			sourceTree = "<group>";
+		};
+		787CDF5F29915C3D00F17EBB /* ClimaGPTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				787CDF6029915C3D00F17EBB /* ClimaGPTUITests.swift */,
+				787CDF6229915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift */,
+			);
+			path = ClimaGPTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		787CDF3829915C3C00F17EBB /* ClimaGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787CDF6629915C3D00F17EBB /* Build configuration list for PBXNativeTarget "ClimaGPT" */;
+			buildPhases = (
+				787CDF3529915C3C00F17EBB /* Sources */,
+				787CDF3629915C3C00F17EBB /* Frameworks */,
+				787CDF3729915C3C00F17EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimaGPT;
+			productName = ClimaGPT;
+			productReference = 787CDF3929915C3C00F17EBB /* ClimaGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		787CDF5129915C3D00F17EBB /* ClimaGPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787CDF6929915C3D00F17EBB /* Build configuration list for PBXNativeTarget "ClimaGPTTests" */;
+			buildPhases = (
+				787CDF4E29915C3D00F17EBB /* Sources */,
+				787CDF4F29915C3D00F17EBB /* Frameworks */,
+				787CDF5029915C3D00F17EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787CDF5429915C3D00F17EBB /* PBXTargetDependency */,
+			);
+			name = ClimaGPTTests;
+			productName = ClimaGPTTests;
+			productReference = 787CDF5229915C3D00F17EBB /* ClimaGPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		787CDF5B29915C3D00F17EBB /* ClimaGPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787CDF6C29915C3D00F17EBB /* Build configuration list for PBXNativeTarget "ClimaGPTUITests" */;
+			buildPhases = (
+				787CDF5829915C3D00F17EBB /* Sources */,
+				787CDF5929915C3D00F17EBB /* Frameworks */,
+				787CDF5A29915C3D00F17EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787CDF5E29915C3D00F17EBB /* PBXTargetDependency */,
+			);
+			name = ClimaGPTUITests;
+			productName = ClimaGPTUITests;
+			productReference = 787CDF5C29915C3D00F17EBB /* ClimaGPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		787CDF3129915C3C00F17EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					787CDF3829915C3C00F17EBB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					787CDF5129915C3D00F17EBB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 787CDF3829915C3C00F17EBB;
+					};
+					787CDF5B29915C3D00F17EBB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 787CDF3829915C3C00F17EBB;
+					};
+				};
+			};
+			buildConfigurationList = 787CDF3429915C3C00F17EBB /* Build configuration list for PBXProject "ClimaGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 787CDF3029915C3C00F17EBB;
+			productRefGroup = 787CDF3A29915C3C00F17EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				787CDF3829915C3C00F17EBB /* ClimaGPT */,
+				787CDF5129915C3D00F17EBB /* ClimaGPTTests */,
+				787CDF5B29915C3D00F17EBB /* ClimaGPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		787CDF3729915C3C00F17EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787CDF4C29915C3D00F17EBB /* LaunchScreen.storyboard in Resources */,
+				787CDF4929915C3D00F17EBB /* Assets.xcassets in Resources */,
+				787CDF4429915C3C00F17EBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787CDF5029915C3D00F17EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787CDF5A29915C3D00F17EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		787CDF3529915C3C00F17EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787CDF4129915C3C00F17EBB /* ViewController.swift in Sources */,
+				787CDF3D29915C3C00F17EBB /* AppDelegate.swift in Sources */,
+				787CDF4729915C3C00F17EBB /* ClimaGPT.xcdatamodeld in Sources */,
+				787CDF3F29915C3C00F17EBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787CDF4E29915C3D00F17EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787CDF5729915C3D00F17EBB /* ClimaGPTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787CDF5829915C3D00F17EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787CDF6329915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift in Sources */,
+				787CDF6129915C3D00F17EBB /* ClimaGPTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		787CDF5429915C3D00F17EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787CDF3829915C3C00F17EBB /* ClimaGPT */;
+			targetProxy = 787CDF5329915C3D00F17EBB /* PBXContainerItemProxy */;
+		};
+		787CDF5E29915C3D00F17EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787CDF3829915C3C00F17EBB /* ClimaGPT */;
+			targetProxy = 787CDF5D29915C3D00F17EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		787CDF4229915C3C00F17EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787CDF4329915C3C00F17EBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		787CDF4A29915C3D00F17EBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787CDF4B29915C3D00F17EBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		787CDF6429915C3D00F17EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		787CDF6529915C3D00F17EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		787CDF6729915C3D00F17EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88Z92A4P93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClimaGPT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = santiagdc.ClimaGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		787CDF6829915C3D00F17EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88Z92A4P93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClimaGPT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = santiagdc.ClimaGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		787CDF6A29915C3D00F17EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88Z92A4P93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = santiagdc.ClimaGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimaGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClimaGPT";
+			};
+			name = Debug;
+		};
+		787CDF6B29915C3D00F17EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88Z92A4P93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = santiagdc.ClimaGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimaGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClimaGPT";
+			};
+			name = Release;
+		};
+		787CDF6D29915C3D00F17EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88Z92A4P93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = santiagdc.ClimaGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClimaGPT;
+			};
+			name = Debug;
+		};
+		787CDF6E29915C3D00F17EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88Z92A4P93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = santiagdc.ClimaGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClimaGPT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		787CDF3429915C3C00F17EBB /* Build configuration list for PBXProject "ClimaGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787CDF6429915C3D00F17EBB /* Debug */,
+				787CDF6529915C3D00F17EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787CDF6629915C3D00F17EBB /* Build configuration list for PBXNativeTarget "ClimaGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787CDF6729915C3D00F17EBB /* Debug */,
+				787CDF6829915C3D00F17EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787CDF6929915C3D00F17EBB /* Build configuration list for PBXNativeTarget "ClimaGPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787CDF6A29915C3D00F17EBB /* Debug */,
+				787CDF6B29915C3D00F17EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787CDF6C29915C3D00F17EBB /* Build configuration list for PBXNativeTarget "ClimaGPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787CDF6D29915C3D00F17EBB /* Debug */,
+				787CDF6E29915C3D00F17EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		787CDF4529915C3C00F17EBB /* ClimaGPT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				787CDF4629915C3C00F17EBB /* ClimaGPT.xcdatamodel */,
+			);
+			currentVersion = 787CDF4629915C3C00F17EBB /* ClimaGPT.xcdatamodel */;
+			path = ClimaGPT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 787CDF3129915C3C00F17EBB /* Project object */;
+}
