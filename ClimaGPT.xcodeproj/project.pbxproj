@@ -17,6 +17,9 @@
 		787CDF5729915C3D00F17EBB /* ClimaGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF5629915C3D00F17EBB /* ClimaGPTTests.swift */; };
 		787CDF6129915C3D00F17EBB /* ClimaGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF6029915C3D00F17EBB /* ClimaGPTUITests.swift */; };
 		787CDF6329915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF6229915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift */; };
+		78F1881529A93AF300EEEBEB /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F1881429A93AF300EEEBEB /* WeatherModel.swift */; };
+		78F9455829A7E05D0074E5DE /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9455729A7E05D0074E5DE /* WeatherManager.swift */; };
+		78F9455A29A7EB6D0074E5DE /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F9455929A7EB6D0074E5DE /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		787CDF5C29915C3D00F17EBB /* ClimaGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimaGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		787CDF6029915C3D00F17EBB /* ClimaGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaGPTUITests.swift; sourceTree = "<group>"; };
 		787CDF6229915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78F1881429A93AF300EEEBEB /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		78F9455729A7E05D0074E5DE /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		78F9455929A7EB6D0074E5DE /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,9 @@
 			children = (
 				787CDF3C29915C3C00F17EBB /* AppDelegate.swift */,
 				787CDF3E29915C3C00F17EBB /* SceneDelegate.swift */,
-				787CDF4029915C3C00F17EBB /* ViewController.swift */,
-				787CDF4229915C3C00F17EBB /* Main.storyboard */,
+				78F9455629A7DF760074E5DE /* Model */,
+				787CDF702991665900F17EBB /* View */,
+				787CDF6F2991664200F17EBB /* Controller */,
 				787CDF4829915C3D00F17EBB /* Assets.xcassets */,
 				787CDF4A29915C3D00F17EBB /* LaunchScreen.storyboard */,
 				787CDF4D29915C3D00F17EBB /* Info.plist */,
@@ -128,6 +135,32 @@
 				787CDF6229915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift */,
 			);
 			path = ClimaGPTUITests;
+			sourceTree = "<group>";
+		};
+		787CDF6F2991664200F17EBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				787CDF4029915C3C00F17EBB /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		787CDF702991665900F17EBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				787CDF4229915C3C00F17EBB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78F9455629A7DF760074E5DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78F9455929A7EB6D0074E5DE /* WeatherData.swift */,
+				78F1881429A93AF300EEEBEB /* WeatherModel.swift */,
+				78F9455729A7E05D0074E5DE /* WeatherManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +296,10 @@
 			files = (
 				787CDF4129915C3C00F17EBB /* ViewController.swift in Sources */,
 				787CDF3D29915C3C00F17EBB /* AppDelegate.swift in Sources */,
+				78F9455829A7E05D0074E5DE /* WeatherManager.swift in Sources */,
+				78F1881529A93AF300EEEBEB /* WeatherModel.swift in Sources */,
 				787CDF4729915C3C00F17EBB /* ClimaGPT.xcdatamodeld in Sources */,
+				78F9455A29A7EB6D0074E5DE /* WeatherData.swift in Sources */,
 				787CDF3F29915C3C00F17EBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
