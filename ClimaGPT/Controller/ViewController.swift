@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, WeatherManagerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
