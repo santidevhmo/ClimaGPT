@@ -23,8 +23,9 @@ struct WeatherManager {
     let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=2c9648e04481c0529268ba8a8f884696&units=metric"
     
     
-    func fetchWeather(cityName: String) { // (This function is called inside another file, and the parameter is the user input)
+    func fetchWeatherWithCityName(cityName: String) { // (This function is called inside another file, and the parameter is the user input)
         let urlString = "\(weatherURL)&q=\(cityName)"
+        performRequest(urlString: urlString)
     }
     
     func performRequest(urlString: String) {
@@ -36,17 +37,19 @@ struct WeatherManager {
             let session = URLSession(configuration: .default) // The object created in here is like our browser. It is the thing that can perform the networking.
             
             // ===== 3. Give the Session a task =====
-            let task = session.dataTask(with: url) { (data, response, error) in
+            let task = session.dataTask(with: url) { (data, response, error) in // Closure completion handler to retrieve the data, response, and error, and use them as we want
                 
+                // == Error ==
                 if error != nil {
                     print(error!)
                     return
                 }
                 
+                // == Succesful data retrievement ==
                 if let safeData = data {
-                    // dataString is only used to print the code before creating the completion handler that will parse it. It is not used again after this
-                    let dataString = String(data: safeData, encoding: .utf8)
-                    print(dataString!)
+                    if let weather = parseJSON(weatherData: safeData) {
+                        self.delegate?.didUpdateWeather(weather: weather)
+                    }
                 }
                 
             }
@@ -59,29 +62,12 @@ struct WeatherManager {
         
     }
     
-    // ===== 3.1 Custom completion handler to retrieve the data, response, and error, and use them as we want =====
-    // (Default completion handler doesn't let us use these params)
-    func handle(data: Data?, response: URLResponse?, error: Error?) {
-        
-        // == Error ==
-        if error != nil {
-            print(error!)
-        }
-        // == Succesful data retrievement ==
-        if let safeData = data {
-            if let weather = parseJSON(weatherData: safeData) {
-                self.delegate?.didUpdateWeather(weather: weather)
-            }
-        }
-        
-    }
-    
-    // ===== 3.1.1 Parsing the JSON to Swift types =====
+    // ===== 3.1 Parsing the JSON to Swift types =====
     func parseJSON(weatherData: Data) -> WeatherModel? {
         
         let decoder = JSONDecoder()
         
-        // == Data ==s
+        // == Data ==
         // (Parsing the JSON with a do, try, and catch is obligatory from Xcode. We get an error if we don't parse it this way)
         do {
             

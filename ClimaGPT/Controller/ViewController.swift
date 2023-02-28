@@ -7,13 +7,28 @@
 
 import UIKit
 
-class ViewController: UIViewController, WeatherManagerDelegate {
+class ViewController: UIViewController {
+    
+    var weatherManager = WeatherManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        weatherManager.delegate = self
+        weatherManager.fetchWeatherWithCityName(cityName: "Monterrey")
+        
     }
 
 
+}
+
+extension ViewController : WeatherManagerDelegate {
+    
+    func didUpdateWeather(weather: WeatherModel) {
+        print(weather.cityName)
+        print(weather.temperatureString)
+        print(weather.conditionName)
+    }
+    
 }
 
