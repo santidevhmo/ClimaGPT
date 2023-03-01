@@ -9,13 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var UserInputTextField: UITextField!
     var weatherManager = WeatherManager()
 
+    @IBAction func SendCityButton(_ sender: UIButton) {
+        let userCity = UserInputTextField.text
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         weatherManager.delegate = self
         weatherManager.fetchWeatherWithCityName(cityName: "Monterrey")
+        
+        
         
     }
 

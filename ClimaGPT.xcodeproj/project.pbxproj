@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781B969529AFC31800CD1FE9 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B969329AFC31800CD1FE9 /* WeatherCell.swift */; };
+		781B969629AFC31800CD1FE9 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B969329AFC31800CD1FE9 /* WeatherCell.swift */; };
+		781B969729AFC31800CD1FE9 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B969329AFC31800CD1FE9 /* WeatherCell.swift */; };
+		781B969829AFC31800CD1FE9 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781B969429AFC31800CD1FE9 /* WeatherCell.xib */; };
+		781B969929AFC31800CD1FE9 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781B969429AFC31800CD1FE9 /* WeatherCell.xib */; };
+		781B969A29AFC31800CD1FE9 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781B969429AFC31800CD1FE9 /* WeatherCell.xib */; };
 		787CDF3D29915C3C00F17EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF3C29915C3C00F17EBB /* AppDelegate.swift */; };
 		787CDF3F29915C3C00F17EBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF3E29915C3C00F17EBB /* SceneDelegate.swift */; };
 		787CDF4129915C3C00F17EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF4029915C3C00F17EBB /* ViewController.swift */; };
@@ -40,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		781B969329AFC31800CD1FE9 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		781B969429AFC31800CD1FE9 /* WeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
 		787CDF3929915C3C00F17EBB /* ClimaGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimaGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787CDF3C29915C3C00F17EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		787CDF3E29915C3C00F17EBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				787CDF4229915C3C00F17EBB /* Main.storyboard */,
+				781B969329AFC31800CD1FE9 /* WeatherCell.swift */,
+				781B969429AFC31800CD1FE9 /* WeatherCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -267,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781B969829AFC31800CD1FE9 /* WeatherCell.xib in Resources */,
 				787CDF4C29915C3D00F17EBB /* LaunchScreen.storyboard in Resources */,
 				787CDF4929915C3D00F17EBB /* Assets.xcassets in Resources */,
 				787CDF4429915C3C00F17EBB /* Main.storyboard in Resources */,
@@ -277,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781B969929AFC31800CD1FE9 /* WeatherCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781B969A29AFC31800CD1FE9 /* WeatherCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +311,7 @@
 				787CDF3D29915C3C00F17EBB /* AppDelegate.swift in Sources */,
 				78F9455829A7E05D0074E5DE /* WeatherManager.swift in Sources */,
 				78F1881529A93AF300EEEBEB /* WeatherModel.swift in Sources */,
+				781B969529AFC31800CD1FE9 /* WeatherCell.swift in Sources */,
 				787CDF4729915C3C00F17EBB /* ClimaGPT.xcdatamodeld in Sources */,
 				78F9455A29A7EB6D0074E5DE /* WeatherData.swift in Sources */,
 				787CDF3F29915C3C00F17EBB /* SceneDelegate.swift in Sources */,
@@ -308,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781B969629AFC31800CD1FE9 /* WeatherCell.swift in Sources */,
 				787CDF5729915C3D00F17EBB /* ClimaGPTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +333,7 @@
 			files = (
 				787CDF6329915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift in Sources */,
 				787CDF6129915C3D00F17EBB /* ClimaGPTUITests.swift in Sources */,
+				781B969729AFC31800CD1FE9 /* WeatherCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
