@@ -9,34 +9,35 @@ import Foundation
 
 // Object created for easier data access and retrieval in VC
 struct WeatherModel {
-    
-    let cityName : String
-    
-    let temperature : Double
+
+    var cityName : String
+    var temperature : Double
     var temperatureString : String { // Round the temperature to only 2 decimals to display it in VC
        return String(format:"%.1f", temperature)
    }
     
-    let conditionID : Int
+    var conditionID : Int
     var conditionName : String { // Convert the ID to a String to display in VC
         switch conditionID {
         case 200...232:
-            return "Thunderstorm"
+            return "with thunderstorms"
         case 300...321:
-            return "Drizzle"
+            return "with drizzle"
         case 500...531:
-            return "Rain"
+            return "and raining"
         case 600...622:
-            return "Snowing"
+            return "and snowing"
         case 701...781:
-            return "Fog"
+            return "with fog"
         case 800:
-            return "Clear sky"
+            return "with a clear sky"
         case 801...804:
-            return "Cloudy"
+            return "and cloudy"
         default:
-            return "cloud"
+            return "with clouds"
         }
     }
+    
+    var isError : Bool
     
 }

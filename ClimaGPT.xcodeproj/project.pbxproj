@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		781B969529AFC31800CD1FE9 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B969329AFC31800CD1FE9 /* WeatherCell.swift */; };
-		781B969629AFC31800CD1FE9 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B969329AFC31800CD1FE9 /* WeatherCell.swift */; };
-		781B969729AFC31800CD1FE9 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B969329AFC31800CD1FE9 /* WeatherCell.swift */; };
-		781B969829AFC31800CD1FE9 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781B969429AFC31800CD1FE9 /* WeatherCell.xib */; };
-		781B969929AFC31800CD1FE9 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781B969429AFC31800CD1FE9 /* WeatherCell.xib */; };
-		781B969A29AFC31800CD1FE9 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781B969429AFC31800CD1FE9 /* WeatherCell.xib */; };
+		78182ADD29D37FC600AF1446 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78182ADB29D37FC600AF1446 /* WeatherCell.swift */; };
+		78182ADE29D37FC600AF1446 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78182ADB29D37FC600AF1446 /* WeatherCell.swift */; };
+		78182ADF29D37FC600AF1446 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78182ADB29D37FC600AF1446 /* WeatherCell.swift */; };
+		78182AE029D37FC600AF1446 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78182ADC29D37FC600AF1446 /* WeatherCell.xib */; };
+		78182AE129D37FC600AF1446 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78182ADC29D37FC600AF1446 /* WeatherCell.xib */; };
+		78182AE229D37FC600AF1446 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78182ADC29D37FC600AF1446 /* WeatherCell.xib */; };
+		782A19D929F37EC300A3F53E /* ErrorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A19D729F37EC300A3F53E /* ErrorCell.swift */; };
+		782A19DA29F37EC300A3F53E /* ErrorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A19D729F37EC300A3F53E /* ErrorCell.swift */; };
+		782A19DB29F37EC300A3F53E /* ErrorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A19D729F37EC300A3F53E /* ErrorCell.swift */; };
+		782A19DC29F37EC300A3F53E /* ErrorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782A19D829F37EC300A3F53E /* ErrorCell.xib */; };
+		782A19DD29F37EC300A3F53E /* ErrorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782A19D829F37EC300A3F53E /* ErrorCell.xib */; };
+		782A19DE29F37EC300A3F53E /* ErrorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782A19D829F37EC300A3F53E /* ErrorCell.xib */; };
+		786DA99829DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 786DA99729DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf */; };
+		786DA99929DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 786DA99729DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf */; };
+		786DA99A29DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 786DA99729DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf */; };
+		786DA99C29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 786DA99B29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf */; };
+		786DA99D29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 786DA99B29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf */; };
+		786DA99E29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 786DA99B29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf */; };
 		787CDF3D29915C3C00F17EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF3C29915C3C00F17EBB /* AppDelegate.swift */; };
 		787CDF3F29915C3C00F17EBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF3E29915C3C00F17EBB /* SceneDelegate.swift */; };
 		787CDF4129915C3C00F17EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787CDF4029915C3C00F17EBB /* ViewController.swift */; };
@@ -46,8 +58,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		781B969329AFC31800CD1FE9 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
-		781B969429AFC31800CD1FE9 /* WeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+		78182ADB29D37FC600AF1446 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		78182ADC29D37FC600AF1446 /* WeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+		782A19D729F37EC300A3F53E /* ErrorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCell.swift; sourceTree = "<group>"; };
+		782A19D829F37EC300A3F53E /* ErrorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorCell.xib; sourceTree = "<group>"; };
+		786DA99729DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TT Interphases Pro Trial DemiBold.ttf"; path = "TT Interphases Pro Trial 2-000/TT Interphases Pro Trial DemiBold.ttf"; sourceTree = SOURCE_ROOT; };
+		786DA99B29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TT Interphases Pro Trial Medium.ttf"; path = "TT Interphases Pro Trial 2-000/TT Interphases Pro Trial Medium.ttf"; sourceTree = SOURCE_ROOT; };
 		787CDF3929915C3C00F17EBB /* ClimaGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimaGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		787CDF3C29915C3C00F17EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		787CDF3E29915C3C00F17EBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +108,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		782A19D529F37E2C00A3F53E /* Weather Cell */ = {
+			isa = PBXGroup;
+			children = (
+				78182ADB29D37FC600AF1446 /* WeatherCell.swift */,
+				78182ADC29D37FC600AF1446 /* WeatherCell.xib */,
+			);
+			path = "Weather Cell";
+			sourceTree = "<group>";
+		};
+		782A19D629F37E6C00A3F53E /* Error Cell */ = {
+			isa = PBXGroup;
+			children = (
+				782A19D729F37EC300A3F53E /* ErrorCell.swift */,
+				782A19D829F37EC300A3F53E /* ErrorCell.xib */,
+			);
+			path = "Error Cell";
+			sourceTree = "<group>";
+		};
+		786DA98E29DDEBD600EE3088 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				786DA99729DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf */,
+				786DA99B29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		787CDF3029915C3C00F17EBB = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +163,7 @@
 				78F9455629A7DF760074E5DE /* Model */,
 				787CDF702991665900F17EBB /* View */,
 				787CDF6F2991664200F17EBB /* Controller */,
+				786DA98E29DDEBD600EE3088 /* Fonts */,
 				787CDF4829915C3D00F17EBB /* Assets.xcassets */,
 				787CDF4A29915C3D00F17EBB /* LaunchScreen.storyboard */,
 				787CDF4D29915C3D00F17EBB /* Info.plist */,
@@ -157,8 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				787CDF4229915C3C00F17EBB /* Main.storyboard */,
-				781B969329AFC31800CD1FE9 /* WeatherCell.swift */,
-				781B969429AFC31800CD1FE9 /* WeatherCell.xib */,
+				782A19D529F37E2C00A3F53E /* Weather Cell */,
+				782A19D629F37E6C00A3F53E /* Error Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -277,10 +321,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				781B969829AFC31800CD1FE9 /* WeatherCell.xib in Resources */,
+				78182AE029D37FC600AF1446 /* WeatherCell.xib in Resources */,
+				786DA99C29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf in Resources */,
 				787CDF4C29915C3D00F17EBB /* LaunchScreen.storyboard in Resources */,
+				782A19DC29F37EC300A3F53E /* ErrorCell.xib in Resources */,
 				787CDF4929915C3D00F17EBB /* Assets.xcassets in Resources */,
 				787CDF4429915C3C00F17EBB /* Main.storyboard in Resources */,
+				786DA99829DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +335,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				781B969929AFC31800CD1FE9 /* WeatherCell.xib in Resources */,
+				782A19DD29F37EC300A3F53E /* ErrorCell.xib in Resources */,
+				786DA99929DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf in Resources */,
+				786DA99D29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf in Resources */,
+				78182AE129D37FC600AF1446 /* WeatherCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +346,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				781B969A29AFC31800CD1FE9 /* WeatherCell.xib in Resources */,
+				782A19DE29F37EC300A3F53E /* ErrorCell.xib in Resources */,
+				786DA99A29DE195900EE3088 /* TT Interphases Pro Trial DemiBold.ttf in Resources */,
+				786DA99E29DE19AB00EE3088 /* TT Interphases Pro Trial Medium.ttf in Resources */,
+				78182AE229D37FC600AF1446 /* WeatherCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +364,8 @@
 				787CDF3D29915C3C00F17EBB /* AppDelegate.swift in Sources */,
 				78F9455829A7E05D0074E5DE /* WeatherManager.swift in Sources */,
 				78F1881529A93AF300EEEBEB /* WeatherModel.swift in Sources */,
-				781B969529AFC31800CD1FE9 /* WeatherCell.swift in Sources */,
+				78182ADD29D37FC600AF1446 /* WeatherCell.swift in Sources */,
+				782A19D929F37EC300A3F53E /* ErrorCell.swift in Sources */,
 				787CDF4729915C3C00F17EBB /* ClimaGPT.xcdatamodeld in Sources */,
 				78F9455A29A7EB6D0074E5DE /* WeatherData.swift in Sources */,
 				787CDF3F29915C3C00F17EBB /* SceneDelegate.swift in Sources */,
@@ -322,8 +376,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				781B969629AFC31800CD1FE9 /* WeatherCell.swift in Sources */,
+				78182ADE29D37FC600AF1446 /* WeatherCell.swift in Sources */,
 				787CDF5729915C3D00F17EBB /* ClimaGPTTests.swift in Sources */,
+				782A19DA29F37EC300A3F53E /* ErrorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +386,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782A19DB29F37EC300A3F53E /* ErrorCell.swift in Sources */,
 				787CDF6329915C3D00F17EBB /* ClimaGPTUITestsLaunchTests.swift in Sources */,
 				787CDF6129915C3D00F17EBB /* ClimaGPTUITests.swift in Sources */,
-				781B969729AFC31800CD1FE9 /* WeatherCell.swift in Sources */,
+				78182ADF29D37FC600AF1446 /* WeatherCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +557,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,6 +586,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
