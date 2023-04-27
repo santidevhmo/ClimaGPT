@@ -1,1 +1,1 @@
-# WeatherGPT
+# ClimaGPT
